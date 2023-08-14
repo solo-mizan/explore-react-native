@@ -20,7 +20,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "package": "com.vu-bus-tracker",
+        "googleMapApiKey": "AIzaSyAlIDUiTW6M9p6qb7mHsMCvqk0_OMO3MV0"
       }
     },
     "web": {

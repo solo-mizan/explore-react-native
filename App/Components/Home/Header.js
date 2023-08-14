@@ -6,13 +6,19 @@ export default class Header extends Component {
   render() {
     return (
         <View style={styles.mainView}>
+
+            {/* map location */}
             <Image source={require('./../../../assets/logo.png')}
-            style={styles.logo}/>
+                style={styles.logo} />
+            
+            {/* search bar */}
             <View>
                 <TextInput placeholder='Search'
                 style={styles.searchBar}
                 />
             </View>
+
+            {/* user button  */}
             <View>
                 <Image source={require('./../../../assets/user.png')}
                 style= {styles.userImage}
@@ -26,6 +32,7 @@ export default class Header extends Component {
 // styles
 const styles = StyleSheet.create({
     mainView: {
+        padding: 10,
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
